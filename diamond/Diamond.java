@@ -62,8 +62,6 @@ public class Diamond {
         System.out.print(" ");
       }
       System.out.print("*");
-    } else if (userInput <= 0){
-      System.out.println("We can't make a diamond with that number.");
     } else {
       int asterisks = 1;
       int spaces = (userInput - 1)/2;
